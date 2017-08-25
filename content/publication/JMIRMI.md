@@ -1,0 +1,20 @@
++++
+abstract = "Background: Sepsis is one of the leading causes of mortality in hospitalized patients. Despite this fact, a reliable means of predicting sepsis onset remains elusive. Early and accurate sepsis onset predictions could allow more aggressive and targeted therapy while maintaining antimicrobial stewardship. Existing detection methods suffer from low performance and often require time-consuming laboratory test results. Objective: To study and validate a sepsis prediction method, InSight, for the new Sepsis-3 definitions in retrospective data, make predictions using a minimal set of variables from within the electronic health record data, compare the performance of this approach with existing scoring systems, and investigate the effects of data sparsity on InSight performance. Methods: We apply InSight, a machine learning classification system that uses multivariable combinations of easily obtained patient data (vitals, peripheral capillary oxygen saturation, Glasgow Coma Score, and age), to predict sepsis using the retrospective Multiparameter Intelligent Monitoring in Intensive Care (MIMIC)-III dataset, restricted to intensive care unit (ICU) patients aged 15 years or more. Following the Sepsis-3 definitions of the sepsis syndrome, we compare the classification performance of InSight versus quick sequential organ failure assessment (qSOFA), modified early warning score (MEWS), systemic inflammatory response syndrome (SIRS), simplified acute physiology score (SAPS) II, and sequential organ failure assessment (SOFA) to determine whether or not patients will become septic at a fixed period of time before onset. We also test the robustness of the InSight system to random deletion of individual input observations. Results: In a test dataset with 11.3% sepsis prevalence, InSight produced superior classification performance compared with the alternative scores as measured by area under the receiver operating characteristic curves (AUROC) and area under precision-recall curves (APR). In detection of sepsis onset, InSight attains AUROC = 0.880 (SD 0.006) at onset time and APR = 0.595 (SD 0.016), both of which are superior to the performance attained by SIRS (AUROC: 0.609; APR: 0.160), qSOFA (AUROC: 0.772; APR: 0.277), and MEWS (AUROC: 0.803; APR: 0.327) computed concurrently, as well as SAPS II (AUROC: 0.700; APR: 0.225) and SOFA (AUROC: 0.725; APR: 0.284) computed at admission (P<.001 for all comparisons). Similar results are observed for 1-4 hours preceding sepsis onset. In experiments where approximately 60% of input data are deleted at random, InSight attains an AUROC of 0.781 (SD 0.013) and APR of 0.401 (SD 0.015) at sepsis onset time. Even with 60% of data missing, InSight remains superior to the corresponding SIRS scores (AUROC and APR, P<.001), qSOFA scores (P=.0095; P<.001) and superior to SOFA and SAPS II computed at admission (AUROC and APR, P<.001), where all of these comparison scores (except InSight) are computed without data deletion. Conclusions: Despite using little more than vitals, InSight is an effective tool for predicting sepsis onset and performs well even with randomly missing data."
+abstract_short = "Despite using little more than vital sign data, our machine-learning-based tool is effective for predicting sepsis hours prior to onset and performs well even with randomly missing patient data."
+authors = ["Thomas Desautels","Jacob Calvert","Jana Hoffman","Melissa Jay","Yaniv Kerem","Lisa Shieh","David Shimabukuro","Uli Chettipally","Mitchell Feldman","Christopher Barton","David Wales","Ritankar Das"]
+date = "2016-08-29"
+image = ""
+image_preview = ""
+math = false
+publication = "In *JMIR Medical Informatics*"
+publication_short = "In *JMIR Med Inform*"
+title = "Prediction of sepsis in the intensive care unit with minimal electronic health record data: a machine learning approach"
+url_code = ""
+selected = false
+publication_types = ["2"]
+url_dataset = ""
+url_pdf = "pdf/JMIRMI.pdf"
+url_project = ""
+url_slides = ""
+url_video = ""
++++
